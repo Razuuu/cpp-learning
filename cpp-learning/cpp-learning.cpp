@@ -13,9 +13,13 @@ int main() {
 	cout << "Enter input and an operator (e.g +,-,*,/,^): ";
 	cout << "Number 1: ";
 	cin >> numberone;
+	
+	// TODO: Check if its a number
 
 	cout << "Number 2: ";
 	cin >> numbertwo;
+
+	// TODO: Check if its a number
 
 	cout << "Operator (+ - * / ^): ";
 	cin >> choice;
@@ -27,8 +31,12 @@ int main() {
 		cout << "Number 1: ";
 		cin >> numberone;
 
+		// TODO: Check if its a number
+
 		cout << "Number 2: ";
 		cin >> numbertwo;
+
+		// TODO: Check if its a number
 
 		cout << "Operator (+ - * / ^): ";
 		cin >> choice;
